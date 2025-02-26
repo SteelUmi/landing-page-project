@@ -3,6 +3,8 @@ body {
     font-family: 'Roboto', serif;
     display: flex;
     flex-direction: column;
+    /* add bgcolor later to get rid of white corners hopefully */
+    /* rename project to "otterz project" later too */
 }
 
 .content {
@@ -39,4 +41,12 @@ body {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 8px;
 }
