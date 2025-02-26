@@ -1,3 +1,7 @@
+/* * { */
+    /* border: solid red 1px; */
+/* } */
+
 body {
     min-height: 100vh;
     font-family: 'Roboto', serif;
@@ -34,13 +38,14 @@ body {
     list-style: none;
     display: flex;
     gap: 16px;
-
 }
 
-#header-link a{
+#header-link a,
+#mission {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    text-align: left;
 }
 
 .footer {
@@ -50,3 +55,58 @@ body {
     color: #E5E7EB;
     padding: 8px;
 }
+
+.intro  { 
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #F9FAF8;
+    padding: 48px;
+    
+}
+
+#warm-hello {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+button {
+    max-height: fit-content;
+    max-width: fit-content;
+    display: block;
+    padding: 1px 8px;
+    margin: 8px;
+    /* come back later to style button */
+}
+
+#welcome button {
+    align-items: left;
+    justify-content: right;
+}
+
+#otter1 {
+    display: flex;
+    flex: auto;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+#otter1 img { 
+  flex: 1 2 0%;
+  max-height: 240px;
+  max-width: 432px;
+} 
+
+
