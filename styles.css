@@ -125,7 +125,6 @@ button {
     align-items: center;
     flex: auto;
     text-align: center;
-    overflow: hidden;
 }
 
 #otter-tree {
@@ -155,3 +154,22 @@ button {
     max-width: 160px;
 }
 
+.qoute {
+    background-color:#E5E7EB;
+    display: flex;
+    flex: 0 2 0%;
+    flex-direction: column;
+    align-items: end;
+    padding: 144px;
+    font-size: 36px;
+    max-height: 300px;
+    min-width: 550px;
+    overflow: hidden;
+}
+
+.qoute em {
+    
+    font-family: light italic;
+    color:#1F2937;
+    /* double-check font-sizing later */
+}
