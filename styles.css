@@ -136,16 +136,22 @@ button {
 
 #otterfam {
     display: flex;
-    flex: 1;
+    flex: 1 2 0%;
     gap: 16px;
     overflow: hidden;
 }
 
 #otterfam img {
-    flex: 1;
     max-height: 200px;
-    max-width: auto;
+    max-width: 400px;
     overflow: hidden;
     border-radius: 8px;
+}
+
+.otterdesc p {
+    font-size: 18px;
+    color:#1F2937;
+    padding: 0px 8px 8px 8px;
+    max-width: 160px;
 }
 
