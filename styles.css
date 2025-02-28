@@ -80,7 +80,7 @@ body {
     text-align: left;
 } 
 #mission {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 #welcome button {
@@ -144,6 +144,7 @@ button a {
     gap: 8px;
     justify-content: center;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 #otterfam img {
@@ -165,6 +166,7 @@ button a {
     display: flex;
     flex: 1;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 80px;
     font-size: 36px;
